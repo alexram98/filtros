@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filtos</title>
+    <style>
+        section{
+            gap: 4px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        /*filtro grascale*/
+        /*.filtros{
+            filter: grayscale(100%);
+        }*/
+
+        /*Sepia*/
+        /*.filtros{
+            filter: sepia(100%);
+        }*/
+        /*blur*/
+        /*.filtros{
+            filter: blur(10px);
+        }*/
+        /*Brightness*/
+        /*.filtros{
+            filter: brightness(70%) drop-shadow(10px 10px 5px #000000);
+        }*/
+        /*Hue Rotate*/
+        /*.filtros{
+            filter: hue-rotate(268deg) drop-shadow(10px 10px 5px #000000);
+        }*/
+        /*sature*/
+        /*.filtros{
+            width: 30%;
+            filter: hue-rotate(268deg) saturate(177%) drop-shadow(10px 10px 5px #000000);
+        }*/
+        /*opacity*/
+        /*.filtros{
+            width: 30%;
+            filter: saturate(135%) opacity(55%) drop-shadow(10px 10px 5px #000000);
+        }*/
+        /*contrast*/
+        .filtros{
+            width: 30%;
+            border-radius: 50%;
+            filter: saturate(100%) contrast(180%) drop-shadow(10px 10px 5px #000000);
+            
+        }
+        .filtros:hover{
+            /*transform: rotate(7deg);*/
+            /*transform: scale(0.8) ;*/
+            /*transform: skew(26deg);*/
+            /*transform: skew(-1deg) translate(69px,0px);*/
+            transform: skew(-1deg) translate(6px,-85px);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header><h1>Filtros con CSS</h1>
+    </header>
+    <main>
+        <section>
+            <img src="img/pexels.jpeg" class="filtros" alt="img" width="600px">
+            <img src="img/pexels2.jpeg"class="filtros" alt="img" width="600px">
+            <img src="img/pexels.jpeg" class="filtros" alt="img" width="600px">
+            <img src="img/pexels2.jpeg"class="filtros" alt="img" width="600px">
+            <img src="img/pexels.jpeg" class="filtros" alt="img" width="600px">           
+            <img src="img/pexels2.jpeg"class="filtros" alt="img" width="600px">
+            
+        </section>
+    </main>
+</body>
+</html>
